@@ -1,48 +1,5 @@
-## Fwitter - Twitter clone in flutter ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fthealphamerc) [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone) ![GitHub forks](https://img.shields.io/github/forks/TheAlphamerc/flutter_twitter_clone?style=social) 
-![Dart CI](https://github.com/TheAlphamerc/flutter_twitter_clone/workflows/Dart%20CI/badge.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/TheAlphamerc/flutter_twitter_clone) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Thealphamerc/flutter_twitter_clone) ![GitHub last commit](https://img.shields.io/github/last-commit/Thealphamerc/flutter_twitter_clone)  ![GitHub issues](https://img.shields.io/github/issues-raw/Thealphamerc/flutter_twitter_clone) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Thealphamerc/flutter_twitter_clone) 
-
-<a href="https://github.com/Solido/awesome-flutter">
-   <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
-</a>
-
-
+# Twitter clone in flutter
 A working Twitter clone written in Flutter using Firebase auth,realtime,firestore database and storage.
-
-
-## Download App
-<a href="https://play.google.com/store/apps/details?id=com.thealphamerc.flutter_twitter_clone"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"></img></a>
-
-
-
-## Features
-* App features is mentioned at project section [ Click here](https://github.com/TheAlphamerc/flutter_twitter_clone/projects/1)
-* Messaging chat section status can be seen at [here](https://github.com/TheAlphamerc/flutter_twitter_clone/projects/2)
-
- :boom: Fwitter app now uses both firebase `realtime` and `firestore` database.:boom:
-* In branch **firetore** Fwitter uses `Firestore` database for app. 
-* In branch **Master** and **realtime_db** Fwitter uses `Firebase Realtime` database for app.
-
-
-## Dependencies
-<details>
-     <summary> Click to expand </summary>
-     
-* [intl](https://pub.dev/packages/intl)
-* [uuid](https://pub.dev/packages/uuid)
-* [http](https://pub.dev/packages/http)
-* [share](https://pub.dev/packages/share)
-* [provider](https://pub.dev/packages/provider)
-* [url_launcher](https://pub.dev/packages/url_launcher)
-* [google_fonts](https://pub.dev/packages/google_fonts)
-* [image_picker](https://pub.dev/packages/image_picker)
-* [firebase_auth](https://pub.dev/packages/firebase_auth)
-* [google_sign_in](https://pub.dev/packages/google_sign_in)
-* [firebase_analytics](https://pub.dev/packages/firebase_analytics)
-* [firebase_database](https://pub.dev/packages/firebase_database)
-* [shared_preferences](https://pub.dev/packages/shared_preferences)
-* [flutter_advanced_networkimage](https://pub.dev/packages/flutter_advanced_networkimage)
-     
-</details>
 
 ## Screenshots
 
@@ -280,21 +237,3 @@ keytool -exportcert -list -v \
 ```
 
 </details>
-     
-## Contributing
-
-If you wish to contribute a change to any of the existing feature or add new in this repo,
-please review our [contribution guide](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/CONTRIBUTING.md),
-and send a [pull request](https://github.com/TheAlphamerc/flutter_twitter_clone/pulls). I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
-
-## Created & Maintained By
-
-[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/)) ([Insta](https://www.instagram.com/_sonu_sharma__)) ([Dev.to](https://dev.to/thealphamerc))
-  ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social) 
-
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> * [PayPal](paypal.me/shubhamsinghchahar/)
-
-## Sponsors
-* [Abdulbasit](https://github.com/AbdulbasitSaid)
