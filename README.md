@@ -1,48 +1,5 @@
-## Fwitter - Twitter clone in flutter ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fthealphamerc) [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone) ![GitHub forks](https://img.shields.io/github/forks/TheAlphamerc/flutter_twitter_clone?style=social) 
-![Dart CI](https://github.com/TheAlphamerc/flutter_twitter_clone/workflows/Dart%20CI/badge.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/TheAlphamerc/flutter_twitter_clone) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Thealphamerc/flutter_twitter_clone) ![GitHub last commit](https://img.shields.io/github/last-commit/Thealphamerc/flutter_twitter_clone)  ![GitHub issues](https://img.shields.io/github/issues-raw/Thealphamerc/flutter_twitter_clone) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Thealphamerc/flutter_twitter_clone) 
-
-<a href="https://github.com/Solido/awesome-flutter">
-   <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
-</a>
-
-
+# Twitter clone in flutter
 A working Twitter clone written in Flutter using Firebase auth,realtime,firestore database and storage.
-
-
-## Download App
-<a href="https://play.google.com/store/apps/details?id=com.thealphamerc.flutter_twitter_clone"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"></img></a>
-
-
-
-## Features
-* App features is mentioned at project section [ Click here](https://github.com/TheAlphamerc/flutter_twitter_clone/projects/1)
-* Messaging chat section status can be seen at [here](https://github.com/TheAlphamerc/flutter_twitter_clone/projects/2)
-
- :boom: Fwitter app now uses both firebase `realtime` and `firestore` database.:boom:
-* In branch **firetore** Fwitter uses `Firestore` database for app. 
-* In branch **Master** and **realtime_db** Fwitter uses `Firebase Realtime` database for app.
-
-
-## Dependencies
-<details>
-     <summary> Click to expand </summary>
-     
-* [intl](https://pub.dev/packages/intl)
-* [uuid](https://pub.dev/packages/uuid)
-* [http](https://pub.dev/packages/http)
-* [share](https://pub.dev/packages/share)
-* [provider](https://pub.dev/packages/provider)
-* [url_launcher](https://pub.dev/packages/url_launcher)
-* [google_fonts](https://pub.dev/packages/google_fonts)
-* [image_picker](https://pub.dev/packages/image_picker)
-* [firebase_auth](https://pub.dev/packages/firebase_auth)
-* [google_sign_in](https://pub.dev/packages/google_sign_in)
-* [firebase_analytics](https://pub.dev/packages/firebase_analytics)
-* [firebase_database](https://pub.dev/packages/firebase_database)
-* [shared_preferences](https://pub.dev/packages/shared_preferences)
-* [flutter_advanced_networkimage](https://pub.dev/packages/flutter_advanced_networkimage)
-     
-</details>
 
 ## Screenshots
 
@@ -95,8 +52,59 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 
 
 
-## Getting started 
-* Project setup instructions are given at [Wiki](https://github.com/TheAlphamerc/flutter_twitter_clone/wiki/Gettings-Started) section.
+## Getting started
+<details>
+     <summary> Click to expand </summary>
+     
+#### 1. [Setup Flutter](https://flutter.dev/docs/get-started/install)
+
+#### 2. Clone the repo
+
+```sh
+$ git https://github.com/TheAlphamerc/flutter_twitter_clone.git
+$ cd flutter_twitter_clone/
+```
+
+#### 3. Setup the firebase app
+
+1. You'll need to create a Firebase instance. Follow the instructions at https://console.firebase.google.com.
+2. Once your Firebase instance is created, you'll need to enable Google authentication.
+
+* Go to the Firebase Console for your new instance.
+* Click "Authentication" in the left-hand menu
+* Click the "sign-in method" tab
+* Click "Google" and enable it
+* Click "Email/Password" and enable it
+
+3. Enable the Firebase Database
+* Go to the Firebase Console
+* Click "Database" in the left-hand menu
+* Click the Realtime "Create Database" button
+* Select "Start in test mode" and "Enable"
+
+4. (skip if not running on Android)
+
+* Create an app within your Firebase instance for Android, with package name com.thealphamerc.flutter_twitter_clone
+* Run the following command to get your SHA-1 key:
+
+```
+keytool -exportcert -list -v \
+-alias androiddebugkey -keystore ~/.android/debug.keystore
+```
+
+* In the Firebase console, in the settings of your Android app, add your SHA-1 key by clicking "Add Fingerprint".
+* Follow instructions to download google-services.json
+* place `google-services.json` into `/android/app/`.
+
+5. (skip if not running on iOS)
+
+* Create an app within your Firebase instance for iOS, with your app package name
+* Follow instructions to download GoogleService-Info.plist
+* Open XCode, right click the Runner folder, select the "Add Files to 'Runner'" menu, and select the GoogleService-Info.plist file to add it to /ios/Runner in XCode
+* Open /ios/Runner/Info.plist in a text editor. Locate the CFBundleURLSchemes key. The second item in the array value of this key is specific to the Firebase instance. Replace it with the value for REVERSED_CLIENT_ID from GoogleService-Info.plist
+
+</details>
+
 
 ## Directory Structure
 <details>
@@ -229,31 +237,3 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 ```
 
 </details>
-     
-## Contributing
-
-If you wish to contribute a change to any of the existing feature or add new in this repo,
-please review our [contribution guide](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/CONTRIBUTING.md),
-and send a [pull request](https://github.com/TheAlphamerc/flutter_twitter_clone/pulls). I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
-
-## Created & Maintained By
-
-[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/)) ([Insta](https://www.instagram.com/_sonu_sharma__)) ([Dev.to](https://dev.to/thealphamerc))
-  ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social) 
-
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> * [PayPal](https://paypal.me/TheAlphamerc/)
-
-> You can also nominate me for Github Star developer program
-> https://stars.github.com/nominate
-
-
-## Contributors
-[![](https://sourcerer.io/fame/TheAlphamerc/TheAlphamerc/flutter_twitter_clone/images/0)](https://sourcerer.io/fame/TheAlphamerc/TheAlphamerc/flutter_twitter_clone/links/0)[![](https://sourcerer.io/fame/TheAlphamerc/TheAlphamerc/flutter_twitter_clone/images/1)](https://sourcerer.io/fame/TheAlphamerc/TheAlphamerc/flutter_twitter_clone/links/1)[![](https://sourcerer.io/fame/TheAlphamerc/TheAlphamerc/flutter_twitter_clone/images/2)](https://sourcerer.io/fame/TheAlphamerc/TheAlphamerc/flutter_twitter_clone/links/2)
-
-## Sponsors
-* [Abdulbasit](https://github.com/AbdulbasitSaid)
-## Visitors Count
-
-<img align="left" src = "https://profile-counter.glitch.me/flutter_twitter_clone/count.svg" alt ="Loading">
